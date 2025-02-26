@@ -129,9 +129,9 @@ span:nth-child(4) {
   }
 }
 
-/* img title animation */
-
-img {
+/*index img animation*/
+.index-page img {
+  margin-top: 20px;
   --s: 15px; /* size of the frame */
   --b: 2px; /* border thickness */
   --w: 400px; /* width of the image */
@@ -149,7 +149,7 @@ img {
   transition: 0.4s;
   cursor: pointer;
 }
-img:hover {
+.index-page img:hover {
   outline: var(--b) solid var(--c);
   outline-offset: calc(var(--s) / -2);
   --_i: calc(100% - 2 * var(--s));
@@ -160,6 +160,7 @@ main {
 .img {
   justify-content: space-around;
 }
+
 
 /* body {
   margin: 0;
